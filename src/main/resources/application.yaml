@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth
+    username: username
+    password: password
+  thymeleaf:
+    cache: false
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
